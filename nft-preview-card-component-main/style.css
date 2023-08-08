@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* vw = viewport width */
+/* vh = viewport height */
+
+/* Global css properties */
+body {
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    ;
+}
+
+h2,
+p,
+div {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+hr {
+    width: 98%;
+    align-self: center;
+    color: hsl(215, 51%, 70%);
+    size: 1px;
+}
+
+/* Inside properties. */
+.card {
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.card-1 {
+    background-color: hsla(216, 33%, 18%, 0.079);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.card-2 {
+    position: relative;
+    background-color: hsla(217, 68%, 6%, 0.116);
+    top: 30px;
+
+}
+
+.card-3 {
+    width: 270px;
+    height: 110%;
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.info1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.info2 img {
+    width: 18px;
+}
+
+.info div {
+    display: flex;
+}
+
+.info img {
+    margin-right: 5px;
+}
+
+.profile span {
+    color: white;
+}
+
+.card h2:hover,
+.profile span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
